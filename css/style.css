@@ -1,0 +1,773 @@
+@import 'nav.css';
+
+:root {
+    --sections: 45vw;
+}
+
+.hero-section {
+    width: 100%;
+    height: calc(130vh - 120px);
+    background-image: url('../img/index/esqnewsletter013121desktop-1643691118668_1500x.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hero-section2 {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: calc(150vh - 120px);
+    background-image: url('../img/index/hero2.webp');
+    background-size: cover;
+    align-items: center;
+}
+
+.hero-section2 .sub-heading {
+    display: flex;
+    justify-content: center;
+    padding-top: 330px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.hero-section2 button {
+    width: 35%;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: black;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    margin: auto;
+    align-items: center;
+    place-items: center;
+    background-color: lightgray;
+}
+
+.products img {
+    width: 200px;
+}
+
+.section1 {
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.section1 p {
+    padding: 15px;
+    font-weight: 400;
+    font-size: 17px;
+    color: gray;
+}
+
+.section1 h3 {
+    padding: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    color: gray;
+}
+
+.section1 h1 {
+    padding: 15px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.section1 img {
+    width: 100px;
+}
+
+.section1 .rows {
+    text-align: center;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.section1 .row {
+    width: 100%;
+}
+
+.section2 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    background-color: #f2f2f2;
+}
+
+.section2 .row1 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 50px;
+}
+
+.section2 .row2 {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.section2 .row1 .text-content h1 {
+    font-size: calc(var(--sections)*0.07);
+    color: gray;
+}
+.section2 .row1 .text-content p {
+    font-size: calc(var(--sections)*0.035);
+    color: gray;
+}
+
+.section2 .row2 img {
+    width: 100%;
+}
+
+.section3 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+}
+
+.section3 .row1 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 50px;
+}
+
+.section3 .row2 {
+    display: flex;
+    align-items: center;
+}
+
+.section3 .row1 .text-content h1 {
+    font-size: calc(var(--sections)*0.07);
+    color: gray;
+}
+
+.section3 .row1 .text-content h3 {
+    font-size: calc(var(--sections)*0.07);
+    color: gray;
+}
+
+.section3 .row1 .text-content p {
+    font-size: calc(var(--sections)*0.035);
+    color: gray;
+}
+
+.section3 .row2 img {
+    width: 100%;
+}
+
+.section4 {
+    width: 80%;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+.section4 h1 {
+    font-size: calc(var(--sections)*0.06);
+}
+
+.section4 p {
+    font-size: calc(var(--sections)*0.04);
+}
+
+.section4 th,td {
+    margin: 20px;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    text-align: left;
+}
+
+.section4 .sectionTable {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section4 button {
+    width: 35%;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: black;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.slider {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.sliderHead {
+    text-align: center;
+}
+
+.sliderHead h1 {
+    font-size: 50px;
+    padding: 10px;
+    color: gray;
+}
+
+.sliderHead p {
+    font-size: 25px;
+    color: gray;
+}
+
+.slider .slide .row1 {
+    display: flex;
+}
+
+.slider .slide {
+    margin: 30px 0;
+    padding: 30px;
+    border: 1px solid gray;
+}
+
+.slider .slide .img_round {
+    margin-right: 20px;
+    margin-top: 5px;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.section5 {
+    text-align: center;
+    background-color: #fafafa;
+    padding: 40px;
+    margin: 50px 0;
+}
+
+.section5 .row1 {
+    margin: 30px;
+}
+
+.section5 .row1 h1 {
+    font-size: 40px;
+    color: gray;
+}
+
+.section5 .row2 {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.section6 {
+    height: 100%;
+    width: 100%;
+    background-color: #dee2d7;
+    text-align: center;
+    padding: 30px;
+}
+
+.section6 button {
+    width: 35%;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: black;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.section6 .row2 img {
+    height: 130vh;
+}
+
+.section6 h4 {
+    font-size: 40px;
+    color: gray;
+    padding: 20px;
+}
+
+.footer-section {
+    display: flex;
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin: auto;
+}
+
+.footer-section img {
+    width: 20px;
+}
+
+.footer-section .row {
+    width: 20%;
+    padding: 30px 10px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: rgb(31, 27, 27);
+    font-size: 15px;
+}
+
+.footer-section input {
+    width: 250px;
+    height: 50px;
+    color: black;
+    background-color: #f2f2f2;
+    border: 1px solid black;
+}
+
+.footer-section button {
+    width: 120px;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 15px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: black;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+/* FALSE LASHES TAB */
+/* FALSE LASHES TAB */
+/* FALSE LASHES TAB */
+.heroFalse {
+    width: 100%;
+    height: calc(104vh - 120px);
+    background-image: url('../img/false_lashes/esq-unisyn-false-eyelashes-collection-banner.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.falseProducts {
+    width: 98%;
+    margin: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+    place-items: center;
+}
+
+.falseProducts .row1{
+    width: 350px;
+}
+
+.productsHead h1{font-size: 50px;}
+.productsHead p{font-size: 20px;}
+.falseProducts .row1 .rowImage{
+    height: 300px;
+    background-image: url(../img/false_lashes/esq-unisyn-v2-complete-bundle_384x384.jpg); background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.falseProducts .row1 .rowImage:hover{
+    height: 300px;
+    background-image: url(../img/false_lashes/esq-unisyn-v2-before-after-breadbutter-k_384x384.jpg); background-repeat: no-repeat;
+    background-size: contain;
+}
+.falseProducts .row1 a{
+    text-decoration: none;
+    color: gray;
+    opacity: 0.8;
+}
+.falseProducts .row1 a:hover{
+    color: gray;
+    opacity: 1;
+}
+
+.falseProducts .row1 a,h4,p{
+    padding: 3px;
+}
+
+/* Product Page */
+/* Product Page */
+/* Product Page */
+
+.cartContent{
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 50px 20px;
+}
+
+.cartContent h1{
+    font-size: 35px;
+}
+.cartContent p{
+    font-size: 17px;
+}
+.cartContent h4{
+    font-size: 20px;
+}
+
+.cartContent a{
+    text-decoration: none;
+    padding: 20px 170px;
+    background-color: rgb(10, 197, 10);
+    border: 1px solid black;
+    color: white;
+    margin-bottom: 50px;
+}
+.cartContent a:hover{
+    background-color: brown;
+}
+
+.cartContent .col1{
+    width: 65%;
+    padding: 20px;
+    text-align: center;
+}
+
+.cartContent .col1 img{
+    width: 60%;
+}
+
+.cartContent .col2{
+    width: 35%;
+}
+
+.cartContent .col2 .row{
+    display: flex;
+    margin: 20px 0;
+    padding: 10px;
+}
+.cartContent .col2 .row img{
+    width: 60px;
+}
+.userCartMobile{display: none;}
+.userCart{
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+.userCart .row1{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px;
+}
+
+.userCart .row1 .col3 button{
+   height: 40px;
+   width: 150px;
+   background-color: black;
+   color: white;
+   border: none;
+}
+.userCart .row1 .col1{
+    width: 70%;
+}
+
+.userCart .row2,.userCartMobile .row2{
+    margin: 20px 0;
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.userCart .row2 p,.userCartMobile .row2 p{
+    padding: 30px;
+}
+
+.userCart .row3{
+    display: flex;
+    justify-content: end;
+    margin: 30px 0px;
+}
+
+.userCart .row3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.userCart .row3 .col1{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.userCart .row3 .col2{
+    width: 50%;
+    text-align: right;
+    align-items: center;
+    display: flex;
+    text-align: right;
+}
+
+.userCart .row3 .col2 input{
+    height: 50px;
+    width: 100px;
+    margin-right: 50px;
+}
+
+.userCart .row4{
+    display: flex;
+}
+
+.userCart .row4 .col1{
+    width: 50%;
+}
+.userCart .row4 .col2{
+    width: 50%;
+}
+
+.userCart .row5{
+    width: 100%;
+}
+.userCart .row5 button{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 30px 0px;
+}
+
+/* Login Page */
+/* Login Page */
+
+.loginSection{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.loginSection h1{
+    margin: 40px;
+}
+
+.loginSection input{
+    margin: 10px;
+    width: 100%;
+    height: 50px;
+}
+
+.loginSection .loginBtn{
+    display: flex;
+}
+
+.loginSection .loginBtn .mainBtn{
+    width: 30%;
+    margin: 10px;
+}
+
+.loginSection .loginBtn .mainBtn button{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color:  white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.loginSection .loginBtn .newUser{
+    text-align: left;
+    margin: 10px 20px;
+}
+
+
+
+
+/* Registration Page */
+/* Registration Page */
+/* Registration Page */
+
+.regSection{
+    width: 45%;
+    margin: auto;
+    text-align: center;
+}
+
+.regSection input{
+    width: 45%;
+    height: 50px;
+    margin: 10px;
+}
+
+.regBtn{
+    display: flex;
+}
+
+.regSection h1{
+    margin: 40px;
+}
+
+.regSection .mainBtn{
+    width: 30%;
+    margin: 20px;
+}
+.regBtn .newUser{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.regSection button{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color:  white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+@media (max-width:1025px ) {
+    .nav{width: 100%;}
+    .nav .nav-links a {font-size: 11px;}
+    .nav .nav-links button{font-size: 11px;}
+    .nav-links {width: 34%;}
+    .nav-logs {margin-right: 0px;}
+    .hero-section2 {height: 600px;}
+    .hero-section2 .sub-heading { font-size: 40px; font-weight: 600;}
+    .products {grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));}
+    .section1 .rows {grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));}
+    .section4 button {width: 37%;}
+    .slider {grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));}
+    .section5 .row2 {grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));}
+    .footer-section input {width: 190px;}
+    .footer-section button {padding: 10px;}
+    .footer-section a,p {font-size: 13px;}
+    .section2 {grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));}
+    .section3 {grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));}
+    .heroFalse {height: 400px; background-image: url('../img/false_lashes/esq-unisyn-false-eyelashes-collection-banner.webp');
+    margin-bottom: 20px; background-repeat: repeat;}
+    .falseProducts {width: 100%; grid-template-columns: repeat(auto-fill, minmax(200px,1fr));}
+    .falseProducts .row1{width: 90%;}
+    .falseProducts .row1 .rowImage{ background-size: cover; width: 100%; height: 300px;}
+    .falseProducts .row1 img{width: 100%;}
+}
+
+@media (max-width:900px ){
+    .nav-bar .nav-1{display: none;}
+    .navTab{width: 100%; display: flex; justify-content: space-between; vertical-align: middle; position: sticky; top: 0; background-color: white;}
+    .navTab a{text-decoration: none; color: black; font-size: 10px; padding: 5px; margin-left: 10px;}
+    .navTab button{font-size: 10px;}
+    .navTab .dropdown img, .cartIcon img{width: 4vw; }
+    .navTab .cartIcon img{margin-top: 15px;}
+    .navTab .tab-logo img{margin-top: 15px;}
+    .nav{display: none;}
+    .hero-section {background-size: contain; height: 600px; background-repeat: no-repeat;}
+    .heroFalse {background-size: contain; height: 300px; background-repeat: no-repeat;}
+    .hero-section2 {background-size: contain; height: 600px; background-repeat: no-repeat; margin-top: -175px;}
+    .products{margin-top: -168px;}
+    .hero-section2 .sub-heading {padding-top: 220px; font-size: 40px; font-weight: 600;}
+    .section1 .rows {grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));}
+    .section1 h1 {font-weight: 500;font-size: 25px; display: grid; grid-gap: 20px;}
+    .section2{grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));}
+    .section3{grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));}
+    .section4 button {width: 40%; font-weight: 500; font-size: 13px;}
+    .section6 button {width: 40%; font-weight: 500; font-size: 13px;}
+    .footer-section{display: grid; grid-template-columns: repeat(auto-fill, minmax(90%, 1fr)); place-items: center; }
+    .footer-section .row{width: 90%; border-bottom: 2px solid lightgray;}
+    .footer-section input {width: 400px;}    
+    .cartContent a{        padding: 20px 70px;    }
+    .cartContent{padding-bottom: 200px;}
+    .userCart{width: 95%;}
+    .userCart .row3 a{font-size: 15px;}
+    .userCart .row3 input{height: 20px;}
+    .regSection input{width: 43%; margin: 8px;}
+    
+}
+
+@media (max-width:500px ){
+    .hero-section {background-size: contain; height: 400px; background-repeat: no-repeat;}
+    .hero-section2 {background-size: contain; height: 400px; background-repeat: no-repeat; margin-top: -200px;}
+    .hero-section2 .sub-heading {padding-top: 0px; font-size: 30px; font-weight: 800; }
+    .hero-section2 button{font-size: 20px; width: 280px; padding: 10px; font-weight: 300;}
+    .products{margin-top: -190px;}
+    .section2{display: block; }
+    .section2 .row1{width: 100%;}
+    .section2 .row2{width: 100%;}
+    .section2 .row2 img{width: 100%;}
+    .section2 .row1 .text-content h1 {font-size: 20px; width: 100%;}
+    .section2 .row1 .text-content p {font-size: 16px;}
+    .section3 .row1 .text-content h1 {font-size: 20px; width: 100%;}
+    .section3 .row1 .text-content p {font-size: 16px;}
+    .section4 th,td {margin: 15px; padding: 15px; border-bottom: 1px solid lightgray; text-align: left; font-size: 13px}
+    .section4{width: 100%;}
+    .section4 h1{font-size: 20px;}
+    .section4 p{font-size: 16px;}
+    .section4 button{width: 200px; padding: 10px;}
+    .sliderHead h1{font-size: 40px;}
+    .sliderHead p{font-size: 25px;}
+    .section5 h1{font-size: 40px;}
+    .section5 p{font-size: 20px;}
+    .section6 button{width: 200px; padding: 10px;}
+    .section6 img{width: 100%; height: 100%;}
+    .footer-section input {width: 290px;} 
+    .navTab .dropdown .mobileSearch {display: block; margin-top: 15px;}
+    .navTab .dropdown .dropdownContain{display: flex;}
+    .navTab .dropdown .dropdownContain img{width: 4vw; height: 4vh;}
+    .heroFalse {background-size: contain; height: 150px; background-repeat: no-repeat; width: 100%;}
+    .falseProducts .row1{width: 200px;}
+    .productsHead h1{font-size: 30px;}
+    .productsHead p{font-size: 15px;}
+    .cartContent{display: block;}
+    .cartContent .col1{width: 100%;}
+    .cartContent .col1 img{width: 60%;}
+    .cartContent .col2{width: 100%;}
+    .cartContent a{        padding: 20px 100px;    }
+    .cartContent{padding-bottom: 250px;}
+
+    .userCartMobile{width: 90%; margin: auto;}
+    .userCartMobile .row1{display: flex; justify-content: space-between;}
+    .userCartMobile .row1 .col1,.col2{width: 50%;}
+    .userCartMobile .row1 button{width: 100%; height: 80%; border-radius: 5px; background-color: black; border: none; color: white;}
+    .userCartMobile .row1 p{color: gray;}
+    .userCartMobile .row3 .col1{display: flex; margin-bottom: 20px;}
+    .userCartMobile .row3 .col1 a{text-decoration: none; font-size: 15px; color: black;}
+    .userCartMobile .row3 .col1 input{height: 50px; width: 120px; margin-left: 2px;}
+    .userCartMobile .row3 .col1 .image{margin-right: 20px;}
+    .userCartMobile .row4{display: flex;}
+    .userCartMobile .row4 .col1{width: 50%;}
+    .userCartMobile .row4 .col2{width: 50%;}
+    .userCartMobile .row5{width: 100%;}
+    .userCartMobile .row5 button{width: 100%; height: 50px; background-color: black; color: white;     border: none; margin: 30px 0px;}
+    .userCart{display: none;}
+    .userCartMobile{display: block;}
+    .loginSection{width: 90%;}
+    .regSection{
+        width: 100%;
+    }
+    .regSection input{
+        width: 90%;
+    }
+}

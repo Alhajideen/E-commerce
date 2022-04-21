@@ -768,4 +768,8 @@
     .regSection input{width: 90%;}
     .dropdown-content .header {text-align: left; width: 155px;}
     .falseProducts .row1{width: 100%;}
+    .falseProducts .row1 .rowImage{
+        height: 400px;
+    }
+    
 }

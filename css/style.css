@@ -764,10 +764,12 @@
     .userCart{display: none;}
     .userCartMobile{display: block;}
     .loginSection{width: 90%;}
-    .regSection{
-        width: 100%;
-    }
-    .regSection input{
-        width: 90%;
+    .regSection{width: 100%;}
+    .regSection input{width: 90%;}
+    .dropdown-content .header {
+        padding: 16px;
+        color: black;
+        text-align: left;
+        width: 155px;
     }
 }

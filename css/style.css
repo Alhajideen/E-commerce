@@ -746,7 +746,6 @@
     .cartContent .col2{width: 100%;}
     .cartContent a{        padding: 20px 100px;    }
     .cartContent{padding-bottom: 250px;}
-
     .userCartMobile{width: 90%; margin: auto;}
     .userCartMobile .row1{display: flex; justify-content: space-between;}
     .userCartMobile .row1 .col1,.col2{width: 50%;}
@@ -768,8 +767,6 @@
     .regSection input{width: 90%;}
     .dropdown-content .header {text-align: left; width: 155px;}
     .falseProducts .row1{width: 100%;}
-    .falseProducts .row1 .rowImage{
-        height: 400px;
-    }
-    
+    .falseProducts .row1 .rowImage{height: 400px;} 
+    .section6 .row2 img {height: 100%;}    
 }
